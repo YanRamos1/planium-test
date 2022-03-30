@@ -52,8 +52,14 @@ foreach ($plans as $plan) {
                     print_r($b);
                     break;
                 }
+            }else{
+                print_r('Não existe plano com esse código');
             }
         }
+    }
+    else {
+        print_r('Não existe plano com esse código');
+        exit();
     }
 }
 
