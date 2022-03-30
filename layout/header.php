@@ -41,7 +41,7 @@
         padding: 2rem;
         border-radius: 0;
         border-bottom: 1px solid #e9ecef;
-        background: linear-gradient(90deg, rgb(74, 96, 203) 26%, rgb(99, 159, 203) 86%);
+        background: linear-gradient(90deg, rgb(74, 96, 203) 26%, rgb(65, 103, 128) 86%);
         background-size: 400% 400%;
         animation: gradient 15s ease infinite;
     }

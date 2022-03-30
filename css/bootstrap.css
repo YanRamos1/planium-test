@@ -73,7 +73,7 @@
 }
 
 #main {
-    background-color: #303e46;
+    background-color: #416780FF;
     border-radius: 0.25rem;
     margin-top: 1rem;
     padding: 1rem;
@@ -3163,7 +3163,7 @@ textarea.form-control-lg {
 }
 
 .btn.btn-silver:hover {
-    color: #818181;
+    color: #ffffff;
     box-shadow: #000000 0px 0px 10px;
 }
 

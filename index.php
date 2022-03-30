@@ -23,10 +23,7 @@ $plans = $planium->plans;
 <div class="container">
     <?php
     require_once __DIR__ . '/layout/header.php';
-
     ?>
-
-
     <!---Inicio do conteudo-->
     <main style="vertical-align: center" class="container shadow" id="main">
         <!--form to add new beneficiario on list-->
