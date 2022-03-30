@@ -6,7 +6,7 @@
             </a>
         </div>
         <div class="d-flex justify-content-between m-2">
-            <a class="link-dark text-white text-decoration-none" style="font-size: 1.4rem" href="/plans.php">Planos</a>
+            <a class="link-dark text-white text-decoration-none" style="font-size: 2rem" href="/plans.php">Planos ativos</a>
         </div>
     </div>
 
@@ -41,7 +41,7 @@
         padding: 2rem;
         border-radius: 0;
         border-bottom: 1px solid #e9ecef;
-        background: linear-gradient(90deg, rgb(74, 96, 203) 26%, rgb(65, 103, 128) 86%);
+        background: linear-gradient(90deg, rgb(74, 96, 203) 26%, rgb(99, 159, 203) 86%);
         background-size: 400% 400%;
         animation: gradient 15s ease infinite;
     }

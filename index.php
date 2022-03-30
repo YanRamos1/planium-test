@@ -53,7 +53,7 @@ $plans = $planium->plans;
 
         <div class="container-fluid mt-3 ms-0">
             <div id="tblBeneficiarios">
-                <table class="table rounded table-hover table-dark">
+                <table class="table rounded table-hover table-dark" style="max-height: 600px">
                     <thead>
                     <tr>
                         <th scope="col">Nome</th>
