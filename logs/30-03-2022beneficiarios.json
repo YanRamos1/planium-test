@@ -1,0 +1,55 @@
+{
+  "qtdBeneficiarios": 5,
+  "beneficiarios_list": [
+    {
+      "nome": "PHP curso",
+      "idade": "11",
+      "plano": {
+        "registro": "reg1",
+        "nome": "Bitix Customer Plano 1",
+        "codigo": 1
+      },
+      "valor": "9"
+    },
+    {
+      "nome": "PHP curso",
+      "idade": "11",
+      "plano": {
+        "registro": "reg1",
+        "nome": "Bitix Customer Plano 1",
+        "codigo": 1
+      },
+      "valor": "9"
+    },
+    {
+      "nome": "PHP curso",
+      "idade": "11",
+      "plano": {
+        "registro": "reg1",
+        "nome": "Bitix Customer Plano 1",
+        "codigo": 1
+      },
+      "valor": "9"
+    },
+    {
+      "nome": "PHP curso",
+      "idade": "11",
+      "plano": {
+        "registro": "reg1",
+        "nome": "Bitix Customer Plano 1",
+        "codigo": 1
+      },
+      "valor": "9"
+    },
+    {
+      "nome": "PHP curso",
+      "idade": "11",
+      "plano": {
+        "registro": "reg1",
+        "nome": "Bitix Customer Plano 1",
+        "codigo": 1
+      },
+      "valor": "10"
+    }
+  ]
+}
