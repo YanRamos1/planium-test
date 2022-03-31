@@ -8,12 +8,18 @@ $all = [];
 $montante = 0;
 try {
     //for to transform on json format
-    $b = $_POST['beneficiarios'];
-    for ($i = 0; $i < count($b); $i++) {
-        $b[$i] = json_decode($b[$i]);
-        $b[$i]->valor = str_replace(',', '.', $b[$i]->valor);
-        $montante += $b[$i]->valor;
+    if(isset($_POST['beneficiarios'])){
+        $b = $_POST['beneficiarios'];
+        for ($i = 0; $i < count($b); $i++) {
+            $b[$i] = json_decode($b[$i]);
+            $b[$i]->valor = str_replace(',', '.', $b[$i]->valor);
+            $montante += $b[$i]->valor;
+        }
     }
+    else{
+        $b = [];
+    }
+
 
     //join all data
     foreach ($plans as $plan) {
