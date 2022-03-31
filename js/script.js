@@ -44,6 +44,7 @@ $(document).ready(function () {
         tbody.innerHTML = "";
         for (let i = 0; i < data.length; i++) {
             let b = JSON.parse(data[i]);
+
             let row = document.createElement('tr');
             let cell = document.createElement('td');
             cell.innerHTML = b.nome;
